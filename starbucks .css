@@ -1,0 +1,70 @@
+#navbarSupportedContent > ul > li:nth-child(n) > a
+{
+    color: black;
+font-size: .8rem;
+font-weight: 700;
+letter-spacing: .1rem;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+ color: #007042;   
+}
+#navbarSupportedContent > form > a
+{
+    padding-right: 1.2rem;
+}
+.navbar
+{
+    padding: 1.1rem 0.8rem;
+}
+#navbarSupportedContent > form > button:nth-child(n){
+    margin-right: 1.2rem;
+}
+#navbarSupportedContent > form > button:nth-child(3)
+{
+    font-weight: 500;
+    font-size: .8rem;
+}
+#navbarSupportedContent > form > button:nth-child(2)
+{
+    font-size: .8rem;
+    font-weight: 500;
+}
+#navbarSupportedContent > form > a
+{
+    color:black;
+}
+#navbarSupportedContent > form > a:hover
+{
+    color: #007042; 
+}
+.lead
+{
+    font-weight: 500;
+}
+.list-head
+{
+    list-style: none;
+    font-weight: 500;
+}
+.lists
+{
+    color:gray;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+.lists:hover{
+    color:black
+}
+.borderless{
+    border: 0 none;
+
+}
+.cop-text
+{
+    font-size: .65rem;
+}
+body > footer.text-white > div.footer-list > ul > a:nth-child(n) 
+{
+    text-decoration: none;
+}

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="starbucks .css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
+    <title>Starbucks bootcamp</title>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="logo_tcm87-366_w1024_n.png" class="img-responsive"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Left section navigation -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " href="index.html">MENU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">REWARDS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " onclick="gift()" href="#">GIFT CARDS</a>
+              </li>    
+            </ul>
+            <!-- Right section navigation -->
+            <form class="d-flex">
+                <a class="nav-link " href="#"><i class="bi bi-geo-alt-fill"></i>Find a store</a>
+             <button class="btn btn btn-outline-secondary rounded-pill" type="submit">Sign in</button>
+              <button class="btn btn btn-dark rounded-pill" type="submit">Join now</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>  
+    <hr>   
+    <!-- navigation bar end -->
+    
+    
+    <!--Section-1 -->
+    <section>
+        <div class="container-fluid p-5">
+            <div class="row align-items-center justify-content-between flex-column-reverse flex-md-row  text-center" style="background-color: #fa91aa;">
+                <div class="col-md text-part-1 p-3"><!--above here we are adding "flex-column-reverse flex-md-row" this is for reversing the order of column-->
+                    <h1 class="fw-bold">Summer’s<br> brightest new<br> drinks</h1>
+                    <p class="lead fs-3 text">
+                        Introducing the Pineapple Passionfruit<br> Starbucks Refreshers® beverage and the<br> Starbucks® 
+                        Paradise Drink with creamy<br> coconutmilk.
+                      </p>
+                      <button class="btn btn btn-outline-dark rounded-pill" type="submit">Learn more</button>
+                </div>
+                <div class="col-md p-0">
+                <img src="137-78796.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- Section-2 -->
+    <section>
+        <div class="container-fluid p-5">
+            <div class="row align-items-center justify-content-between " style="background-color: #9bf5b4;">
+                <div class="col-md p-0">
+                <img src="137-79093.jpg" class="img-fluid ">
+                </div>
+                <div class="col-md text-part-2   text-center p-3" >
+                    <h1 class="fw-bold">Anytime protein</h1>
+                    <p class="lead">
+                        The Impossible™ Breakfast Sandwich* will<br> keep you going with a plant-based sausage<br> patty, cage-free 
+                        fried egg and Cheddar on a <br> sesame ciabatta bun.
+                      </p>
+                      <button class="btn btn btn-outline-dark rounded-pill" type="submit">Order now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Section-3 -->
+    <section>
+        <div class="container-fluid  p-5">
+            <div class="row align-items-center justify-content-between flex-column-reverse flex-md-row text-white text-center" style="background-color: #007042;"> <!--here i gave flex-lg-row first i didnt get section one at 778 correct way.-->
+                <div class="col-md text-part-3 p-3"> 
+                    <h1 class="fw-bold">Vacation vibes</h1>
+                    <p class="lead">
+                        With zesty lime frosting and sweet, dried<br> coconut, our new Lime-Frosted Coconut Bar<br> tastes like
+                         summertime.
+                      </p>
+                      <button class="btn tn btn-outline-light rounded-pill" type="submit">Learn more</button>
+                </div>
+                <div class="col-md p-0">
+                <img src="137-79052.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- Section-4 -->
+    <section>
+        <div class="container-fluid p-5">
+            <div class="row align-items-center justify-content-between" style="background-color: #d3e9e2;">
+                <div class="col-md p-0">
+                <img src="137-79094.webp" class="img-fluid">
+                </div>
+                <div class="col-md text-part-4 text-center p-3" >
+                    <h1 class="fw-bold">Celebrating Disability Pride Month</h1>
+                    <p class="lead">
+                        Alongside the Disability Advocacy Partner Network, we’re<br> building more inclusive communities through 
+                        awareness,<br>action and allyship.
+                      </p>
+                      <button class="btn btn btn-outline-dark rounded-pill" type="submit">Order now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sentence above footer -->
+    <div class="d-flex justify-content-center text-center ">
+        <p >*Impossible is a registered trademark of Impossible Foods Inc. Used under license.</p>
+    </div>
+    <hr>
+
+    <!-- footer -->
+
+    <!-- footer section-1 -->
+
+    <!-- footer section-1/sub-sec-1 -->
+    <!-- First we have to show complete list in large screen-->
+    <footer class="d-none d-lg-block">   <!--/To hide elements simply use the .d-none class/"d-lg-block" means display in blocks when its large screen-->
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-lg-2">
+                    <ul class="un-ordered-list-items">
+                       <li class="list-head">About US</li>
+                       <a href="#" class="lists"><li class="lists">Our company</li></a> 
+                        <a href="#" class="lists"><li class="lists">Our coffee</li></a> 
+                        <a href="#" class="lists"><li class="lists">Stories and News</li></a> 
+                        <a href="#" class="lists"><li class="lists">Starbucks Archive</li></a> 
+                        <a href="#" class="lists"><li class="lists">Investor Realtions</li></a> 
+                        <a href="#" class="lists"><li class="lists">Customer Service</li></a> 
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <ul class="un-ordered-list-items">
+                        <li class="list-head">Careers</li>
+                        <a href="#" class="lists"><li class="lists">Culture and Values</li></a> 
+                        <a href="#" class="lists"><li class="lists">Inclusion,Diversity and<br> Equity</li></a> 
+                        <a href="#" class="lists"><li class="lists">College Achievement<br> Plan</li></a> 
+                        <a href="#" class="lists"><li class="lists">Alumini Community</li></a> 
+                        <a href="#" class="lists"><li class="lists">U.S Careers</li></a> 
+                        <a href="#" class="lists"><li class="lists">International Careers</li></a> 
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <ul>
+                        <li class="list-head">Social Imapact</li>
+                        <a href="#" class="lists"><li class="lists">People</li></a> 
+                        <a href="#" class="lists"><li class="lists">Planet</li></a> 
+                        <a href="#" class="lists"><li class="lists">Environmental and Social<br> Imapct Reporting</li></a> 
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <ul class="un-ordered-list-items">
+                        <li class="list-head">For Business Partners</li>
+                        <a href="#" class="lists"><li class="lists">Landlord Support Center</li></a> 
+                        <a href="#" class="lists"><li class="lists">Suppliers</li></a> 
+                        <a href="#" class="lists"><li class="lists">Corporate Gift Card Sales</li></a> 
+                        <a href="#" class="lists"><li class="lists">Office and Foodservice<br>Coffee</li></a> 
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <ul class="un-ordered-list-items">
+                        <li class="list-head">Order and Pickup</li>
+                        <a href="#" class="lists"><li class="lists">Order on the App</li></a>
+                        <a href="#" class="lists"><li class="lists">Order on the Web</li></a>
+                        <a href="#" class="lists"><li class="lists">Delivery</li></a>
+                        <a href="#" class="lists"><li class="lists">Order and Pickup<br>Options</li></a>
+                        <a href="#" class="lists"><li class="lists">Explore and Find Coffee for Home</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer section-1/sub sec-2 -->
+    <!-- Here we have make Accordion when screen is less than large screen -->
+    
+    <footer class="d-block d-lg-none"> <!--Here we dont want to show Accordion in large screen-->
+        <div class="container">
+            <div class="row">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          About us
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                            <li class="lists">Our company</li>
+                            <li class="lists">Our coffee</li>
+                            <li class="lists">Stories and News</li>
+                            <li class="lists">Starbucks Archive</li>
+                            <li class="lists">Investor Realtions</li>
+                            <li class="lists">Customer Service</li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Careers
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                         <ul>
+                            <li class="lists">Culture and Values</li>
+                            <li class="lists">Inclusion,Diversity and<br> Equity</li>
+                            <li class="lists">College Achievement<br> Plan</li>
+                            <li class="lists">Alumini Community</li>
+                            <li class="lists">U.S Careers</li>
+                            <li class="lists">International Careers</li>
+                         </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Social Impact
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li class="lists">People</li>
+                            <li class="lists">Planet</li>
+                            <li class="lists">Environmental and Social<br> Imapct Reporting</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            For Business Partners
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <ul>
+                                <li class="lists">Landlord Support Center</li>
+                                <li class="lists">Suppliers</li>
+                                <li class="lists">Corporate Gift Card Sales</li>
+                                <li class="lists">Office and Foodservice<br>Coffee</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Order and Pickup
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <ul>
+                                <li class="lists">Order on the App</li>
+                                <li class="lists">Order on the Web</li>
+                                <li class="lists">Delivery</li>
+                                <li class="lists">Order and Pickup<br>Options</li>
+                                <li class="lists">Explore and Find Coffee for Home</li>     
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </footer> 
+    <hr>
+
+    <!-- footer section-1 end -->
+    <!-- footer section-2 -->
+    
+        <footer class=" text-white" >
+            <!-- Grid container -->
+            <div class="container p-2 m-0">
+              <!-- Section: Social media -->
+              <section >
+                <!-- Spotify -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark p-2"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="bi bi-spotify"></i></a>
+          
+                <!-- Facebook -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark p-2"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="bi bi-facebook"></i></a>
+          
+                <!-- Pinterest -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark p-2"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="bi bi-pinterest"></i></a>
+          
+                <!-- Instagram -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark p-2"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="bi bi-instagram"></i></a>
+          
+                <!-- Youtube -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark p-2"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="bi bi-youtube"></i></a>
+                <!-- Twitter -->
+                <a
+                  class="btn btn-link btn-floating btn-lg text-dark p-2"
+                  href="#!"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="bi bi-twitter"></i></a>
+              </section>
+            </div>
+            <!-- Footer list items -->
+          <div class="footer-list">
+            <ul class="list-group list-group-horizontal-lg borderless">
+               <a href="#"> <li class="list-group-item borderless">Privacy Policy</li></a>
+               <a href="#"><li class="list-group-item borderless">Terms of Use</li></a>
+                <a href="#">  <li class="list-group-item borderless">CA Supply Chain Act</li></a>
+                <a href="#">  <li class="list-group-item borderless">Cookie Preference</li></a>
+              </ul>
+          </div>
+            <!-- Copyright -->
+            <div class=" text-dark p-3 cop-text">
+                © 2022 Starbucks Coffee Company. All rights reserved.
+            </div>
+            <!-- Copyright -->
+          </footer>
+    
+    
+    
+
+<script>
+    function gift()
+    {
+        alert("Sorry! Offer closed")
+    }
+</script>    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
